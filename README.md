@@ -13,6 +13,14 @@ src="./assets/ascii.svg"
 width="900"
 />
 
+<br><br>
+
+<img
+src="./assets/neotech-card.svg"
+width="900"
+alt="Guru Prasanth Neotech Card"
+/>
+
 </div>
 
 ## `> whoami`
