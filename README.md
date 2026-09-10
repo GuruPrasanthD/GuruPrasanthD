@@ -73,5 +73,28 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrasanth
 <img
 src="https://streak-stats.demolab.com?user=GuruPrasanthD&theme=transparent&hide_border=true"
 />
+</div>
+# `> contribution.matrix`
+
+<div align="center">
+
+<picture>
+
+<source
+media="(prefers-color-scheme: dark)"
+srcset="https://raw.githubusercontent.com/GuruPrasanthD/GuruPrasanthD/output/github-contribution-grid-snake-dark.svg"
+/>
+
+<source
+media="(prefers-color-scheme: light)"
+srcset="https://raw.githubusercontent.com/GuruPrasanthD/GuruPrasanthD/output/github-contribution-grid-snake.svg"
+/>
+
+<img
+alt="Guru Prasanth GitHub Contribution Snake"
+src="https://raw.githubusercontent.com/GuruPrasanthD/GuruPrasanthD/output/github-contribution-grid-snake.svg"
+/>
+
+</picture>
 
 </div>
