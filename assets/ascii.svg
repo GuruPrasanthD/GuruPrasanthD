@@ -1,126 +1,50 @@
-<svg width="900" height="350"
-viewBox="0 0 900 350"
-xmlns="http://www.w3.org/2000/svg">
+<!-- LEFT PANEL -->
 
 <rect
-width="900"
-height="350"
-rx="20"
-fill="#050810"
-stroke="#00F7FF"
-stroke-width="2"
+  x="35"
+  y="90"
+  width="465"
+  height="410"
+  rx="12"
+  fill="#020817"
+  stroke="#00F7FF"
+  stroke-opacity="0.5"
 />
 
 <text
-x="40"
-y="45"
-fill="#00F7FF"
-font-family="monospace"
-font-size="14">
-IDENTITY_SCAN // GURU_PRASANTH
-</text>
+  x="55"
+  y="118"
+  fill="#7CFF67"
+  font-family="Courier New, monospace"
+  font-size="12"
+  font-weight="bold">
 
-<text
-x="80"
-y="100"
-fill="#00F7FF"
-font-family="monospace"
-font-size="18">
-
-░░░░▒▓██████▓▒░░░░
+  IDENTITY // VERIFIED
 
 </text>
 
-<text
-x="80"
-y="130"
-fill="#00F7FF"
-font-family="monospace"
-font-size="18">
+<!-- SCANNER -->
 
-░░▒██▒░░░░░▒██▒░░
+<line
+  x1="45"
+  y1="140"
+  x2="490"
+  y2="140"
+  stroke="#00F7FF"
+  stroke-width="2"
+  opacity="0.55"
+  filter="url(#softGlow)">
 
-</text>
+  <animate
+    attributeName="y1"
+    values="140;485;140"
+    dur="5s"
+    repeatCount="indefinite"/>
 
-<text
-x="80"
-y="160"
-fill="#00F7FF"
-font-family="monospace"
-font-size="18">
+  <animate
+    attributeName="y2"
+    values="140;485;140"
+    dur="5s"
+    repeatCount="indefinite"/>
 
-░██▒░░██░░██░░▒██░
-
-</text>
-
-<text
-x="80"
-y="190"
-fill="#00F7FF"
-font-family="monospace"
-font-size="18">
-
-░██░░░░░██░░░░░██░
-
-</text>
-
-<text
-x="80"
-y="220"
-fill="#00F7FF"
-font-family="monospace"
-font-size="18">
-
-░░██▒░░████░░▒██░░
-
-</text>
-
-<text
-x="80"
-y="250"
-fill="#00F7FF"
-font-family="monospace"
-font-size="18">
-
-░░░▒████████▒░░░
-
-</text>
-
-<text
-x="480"
-y="130"
-fill="#FFFFFF"
-font-family="monospace"
-font-size="28"
-font-weight="bold">
-GURU PRASANTH D
-</text>
-
-<text
-x="480"
-y="175"
-fill="#00F7FF"
-font-family="monospace"
-font-size="15">
-COMPUTER SCIENCE ENGINEER
-</text>
-
-<text
-x="480"
-y="220"
-fill="#8B949E"
-font-family="monospace"
-font-size="14">
-PYTHON // AI // ML // AWS
-</text>
-
-<text
-x="480"
-y="250"
-fill="#7CFF67"
-font-family="monospace"
-font-size="14">
-● SYSTEM ONLINE
-</text>
-
-</svg>
+</line>
