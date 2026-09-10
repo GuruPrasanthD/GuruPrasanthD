@@ -98,3 +98,53 @@ src="https://raw.githubusercontent.com/GuruPrasanthD/GuruPrasanthD/output/github
 </picture>
 
 </div>
+
+# `> developer.py`
+
+```python
+class GuruPrasanth:
+
+    def __init__(self):
+
+        self.role = "Computer Science Engineer"
+
+        self.primary_language = "Python"
+
+        self.focus = [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Generative AI",
+            "Backend Engineering",
+            "Cloud Computing",
+            "Cybersecurity"
+        ]
+
+    def mission(self):
+
+        return "Build. Learn. Solve. Repeat."
+
+
+developer = GuruPrasanth()
+
+print(developer.mission())
+```
+
+```text
+OUTPUT >
+
+Build. Learn. Solve. Repeat.
+```
+
+# `> network.connect`
+
+<div align="center">
+
+<a href="https://github.com/GuruPrasanthD">
+<img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="YOUR_LINKEDIN_URL">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+</div>
