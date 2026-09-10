@@ -1,0 +1,127 @@
+<svg width="900" height="330"
+viewBox="0 0 900 330"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="3" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<rect
+x="2"
+y="2"
+width="896"
+height="326"
+rx="20"
+fill="#050810"
+stroke="#00F7FF"
+stroke-width="2"
+/>
+
+<text
+x="40"
+y="45"
+fill="#00F7FF"
+font-family="monospace"
+font-size="14"
+letter-spacing="3">
+NEOTECH // DEVELOPER_CORE
+</text>
+
+<circle
+cx="825"
+cy="40"
+r="5"
+fill="#7CFF67"
+filter="url(#glow)">
+
+<animate
+attributeName="opacity"
+values="1;.2;1"
+dur="1.4s"
+repeatCount="indefinite"
+/>
+
+</circle>
+
+<text
+x="805"
+y="45"
+text-anchor="end"
+fill="#7CFF67"
+font-family="monospace"
+font-size="12">
+ONLINE
+</text>
+
+<line
+x1="40"
+y1="70"
+x2="860"
+y2="70"
+stroke="#1E293B"
+/>
+
+<text
+x="45"
+y="125"
+fill="#FFFFFF"
+font-family="monospace"
+font-size="32"
+font-weight="bold">
+GURU PRASANTH D
+</text>
+
+<text
+x="45"
+y="160"
+fill="#00F7FF"
+font-family="monospace"
+font-size="14">
+COMPUTER SCIENCE ENGINEER // 2026
+</text>
+
+<text
+x="45"
+y="210"
+fill="#8B949E"
+font-family="monospace"
+font-size="13">
+CORE_STACK
+</text>
+
+<text
+x="45"
+y="242"
+fill="#FFFFFF"
+font-family="monospace"
+font-size="14">
+PYTHON // AI // ML // FASTAPI // AWS
+</text>
+
+<text
+x="45"
+y="270"
+fill="#FFFFFF"
+font-family="monospace"
+font-size="14">
+GENAI // CLOUD // SECURITY // BACKEND
+</text>
+
+<text
+x="45"
+y="305"
+fill="#7CFF67"
+font-family="monospace"
+font-size="12">
+● BUILD // LEARN // SOLVE // REPEAT
+</text>
+
+</svg>
