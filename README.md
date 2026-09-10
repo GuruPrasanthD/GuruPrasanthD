@@ -14,3 +14,56 @@ width="900"
 />
 
 </div>
+
+## `> whoami`
+
+```bash
+guru@github:~$ whoami
+
+Name        : Guru Prasanth D
+Role        : Computer Science Engineer
+Primary     : Python
+Focus       : AI / ML • Generative AI • Backend
+Cloud       : AWS
+Status      : OPEN TO OPPORTUNITIES
+```
+
+## `> current_mission`
+
+```text
+Building intelligent, secure and scalable systems
+that solve real-world problems.
+```
+
+## `> technology.matrix`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,java,html,css,react,fastapi,flask,django,tensorflow,mysql,postgres,aws,docker,git,github,vscode"/>
+
+</div>
+
+
+# `> github.telemetry`
+
+<div align="center">
+
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api?username=GuruPrasanthD&show_icons=true&hide_border=true&bg_color=00000000&title_color=00F7FF&text_color=8B949E&icon_color=7CFF67"
+/>
+
+<img
+height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuruPrasanthD&layout=compact&hide_border=true&bg_color=00000000&title_color=00F7FF&text_color=8B949E"
+/>
+
+</div>
+
+<div align="center">
+
+<img
+src="https://streak-stats.demolab.com?user=GuruPrasanthD&theme=transparent&hide_border=true"
+/>
+
+</div>
