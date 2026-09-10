@@ -1,5 +1,9 @@
-# Hi, I'm Guru Prasanth 👋
+<div align="center">
 
-Computer Science Engineer | Python | AI/ML | AWS | Generative AI
+<h1>GURU PRASANTH D</h1>
 
-I enjoy building intelligent systems and solving real-world problems.
+<img
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2500&pause=700&color=00F7FF&center=true&vCenter=true&width=700&lines=Computer+Science+Engineer;Python+Developer;AI+%2F+Machine+Learning;Generative+AI+%7C+AWS;Building+Intelligent+Systems"
+/>
+
+</div>
