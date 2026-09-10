@@ -1,50 +1,312 @@
-<!-- LEFT PANEL -->
+<svg
+  width="900"
+  height="350"
+  viewBox="0 0 900 350"
+  xmlns="http://www.w3.org/2000/svg">
 
-<rect
-  x="35"
-  y="90"
-  width="465"
-  height="410"
-  rx="12"
-  fill="#020817"
-  stroke="#00F7FF"
-  stroke-opacity="0.5"
-/>
+  <defs>
 
-<text
-  x="55"
-  y="118"
-  fill="#7CFF67"
-  font-family="Courier New, monospace"
-  font-size="12"
-  font-weight="bold">
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00F7FF"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7CFF67"/>
+    </linearGradient>
 
-  IDENTITY // VERIFIED
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-</text>
+  </defs>
 
-<!-- SCANNER -->
+  <!-- BACKGROUND -->
 
-<line
-  x1="45"
-  y1="140"
-  x2="490"
-  y2="140"
-  stroke="#00F7FF"
-  stroke-width="2"
-  opacity="0.55"
-  filter="url(#softGlow)">
+  <rect
+    x="2"
+    y="2"
+    width="896"
+    height="346"
+    rx="20"
+    fill="#050810"
+    stroke="url(#border)"
+    stroke-width="2"/>
 
-  <animate
-    attributeName="y1"
-    values="140;485;140"
-    dur="5s"
-    repeatCount="indefinite"/>
+  <!-- TOP HEADER -->
 
-  <animate
-    attributeName="y2"
-    values="140;485;140"
-    dur="5s"
-    repeatCount="indefinite"/>
+  <text
+    x="40"
+    y="45"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="14"
+    font-weight="bold"
+    letter-spacing="2">
 
-</line>
+    GITHUB://GuruPrasanthD
+
+  </text>
+
+  <!-- ONLINE STATUS -->
+
+  <circle
+    cx="755"
+    cy="40"
+    r="5"
+    fill="#7CFF67"
+    filter="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="1;0.25;1"
+      dur="1.4s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+  <text
+    x="770"
+    y="45"
+    fill="#7CFF67"
+    font-family="Courier New, monospace"
+    font-size="13"
+    font-weight="bold">
+
+    SYSTEM ONLINE
+
+  </text>
+
+  <!-- DIVIDER -->
+
+  <line
+    x1="40"
+    y1="70"
+    x2="860"
+    y2="70"
+    stroke="#00F7FF"
+    stroke-opacity="0.35"/>
+
+  <!-- NAME -->
+
+  <text
+    x="50"
+    y="125"
+    fill="#FFFFFF"
+    font-family="Courier New, monospace"
+    font-size="38"
+    font-weight="bold">
+
+    GURU
+
+  </text>
+
+  <text
+    x="175"
+    y="125"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="38"
+    font-weight="bold"
+    filter="url(#glow)">
+
+    PRASANTH D
+
+  </text>
+
+  <!-- ROLE -->
+
+  <text
+    x="52"
+    y="160"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="15"
+    letter-spacing="3">
+
+    COMPUTER SCIENCE ENGINEER // 2026
+
+  </text>
+
+  <!-- SECOND DIVIDER -->
+
+  <line
+    x1="50"
+    y1="185"
+    x2="850"
+    y2="185"
+    stroke="#1E293B"/>
+
+  <!-- LEFT DETAILS -->
+
+  <text
+    x="55"
+    y="220"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    &gt; PRIMARY
+
+  </text>
+
+  <text
+    x="180"
+    y="220"
+    fill="#CBD5E1"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    Python
+
+  </text>
+
+  <text
+    x="55"
+    y="250"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    &gt; FOCUS
+
+  </text>
+
+  <text
+    x="180"
+    y="250"
+    fill="#CBD5E1"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    AI / ML • Generative AI • Backend
+
+  </text>
+
+  <text
+    x="55"
+    y="280"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    &gt; CLOUD
+
+  </text>
+
+  <text
+    x="180"
+    y="280"
+    fill="#CBD5E1"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    AWS • Cloud Computing
+
+  </text>
+
+  <!-- RIGHT DETAILS -->
+
+  <text
+    x="500"
+    y="220"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    &gt; INTERESTS
+
+  </text>
+
+  <text
+    x="620"
+    y="220"
+    fill="#CBD5E1"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    Cybersecurity
+
+  </text>
+
+  <text
+    x="500"
+    y="250"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    &gt; STATUS
+
+  </text>
+
+  <text
+    x="620"
+    y="250"
+    fill="#7CFF67"
+    font-family="Courier New, monospace"
+    font-size="13"
+    font-weight="bold">
+
+    OPEN TO OPPORTUNITIES
+
+  </text>
+
+  <text
+    x="500"
+    y="280"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    &gt; BUILD
+
+  </text>
+
+  <text
+    x="620"
+    y="280"
+    fill="#CBD5E1"
+    font-family="Courier New, monospace"
+    font-size="13">
+
+    Intelligent Systems
+
+  </text>
+
+  <!-- BOTTOM DIVIDER -->
+
+  <line
+    x1="50"
+    y1="305"
+    x2="850"
+    y2="305"
+    stroke="#1E293B"/>
+
+  <!-- FOOTER -->
+
+  <text
+    x="50"
+    y="330"
+    fill="#8B949E"
+    font-family="Courier New, monospace"
+    font-size="12">
+
+    BUILD • LEARN • SOLVE • REPEAT
+
+  </text>
+
+  <text
+    x="850"
+    y="330"
+    text-anchor="end"
+    fill="#00F7FF"
+    font-family="Courier New, monospace"
+    font-size="12">
+
+    github.com/GuruPrasanthD
+
+  </text>
+
+</svg>
